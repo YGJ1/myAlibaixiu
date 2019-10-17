@@ -11,4 +11,4 @@ function dateFormat(date){
     var data = new Date(date)
     return data.getFullYear()+'/'+(data.getMonth()+1)+'/'+data.getDate();
 }
-// template.defaults.imports.dateFormat = dateFormat();
+template.defaults.imports.dateFormat = dateFormat;
